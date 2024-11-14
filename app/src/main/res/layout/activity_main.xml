@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/ic_launcher_background">
+
+
+    <ImageView
+        android:layout_width="161dp"
+        android:layout_height="210dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="40dp"
+        android:src="@mipmap/ox" />
+
+    <EditText
+        android:id="@+id/checkifexists"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:hint="Check Student "
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search for Student "
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#3d88bc"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="12dp"
+        android:elevation="4dp"
+        android:layout_gravity="center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/forname"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="150dp"
+            android:hint="Name Here pls "
+            android:textStyle="italic" />
+
+
+        <ImageButton
+            android:layout_width="55dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="150dp"
+            android:src="@mipmap/a"
+            android:id="@+id/liste"
+            android:background="@android:color/transparent" />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/fornote"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:hint="Grade Here pls "
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Add Student"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#3d88bc"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="12dp"
+        android:elevation="4dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

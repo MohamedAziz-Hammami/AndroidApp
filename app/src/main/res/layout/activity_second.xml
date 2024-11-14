@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".second"
+    android:orientation="vertical"
+    android:background="@drawable/ic_launcher_background">
+
+    <ImageView
+        android:layout_width="161dp"
+        android:layout_height="158dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/ox" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List Student"
+        android:textSize="30dp"
+        android:layout_marginLeft="120dp"/>
+    <ListView
+        android:id="@+id/listestudent"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp"
+        >
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#fc0707"
+            android:elevation="4dp"
+            android:paddingHorizontal="32dp"
+            android:paddingVertical="12dp"
+            android:text="Delete Student"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"/>
+
+
+        <Button
+            android:id="@+id/modify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#17ff00"
+            android:elevation="4dp"
+            android:paddingHorizontal="32dp"
+            android:paddingVertical="12dp"
+            android:text="Modify Student"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="80dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
